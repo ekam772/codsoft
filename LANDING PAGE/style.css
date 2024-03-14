@@ -1,0 +1,116 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  html, body {
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 16px;
+  }
+  
+  .showPage {
+    background-attachment: scroll;
+    background: url(gaming.jpg)center;
+    background-size: cover;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 1px;
+  }
+  
+  .showPage h1 {
+    color: #fff;
+    font-size: 8rem;
+    padding-top: inherit;
+  }
+  
+  .showPage p {
+    color: #fff;
+    font-size: 1.5rem;
+  }
+  
+  .btn-1 {
+    background: #8514c7;
+    border: none;
+    color: #ffffff;
+    cursor: pointer;
+    padding: 10px 20px;
+    text-transform: uppercase;
+    font-size: .8rem;
+    margin-top: 20px;
+    transition: all .5s ease-in-out;
+  }
+  
+  .btn-1:hover {
+    background: #450679;
+  }
+
+  .btn-2 {
+    background-image: url(goku.jpg);
+    border: none;
+    padding: 30px 20px;
+    margin-left: 20px;
+    transition: all .5s ease-in-out;
+    font-size: 2rem;
+    color: #ffffff;
+  }
+  .btn-2:hover {
+    background-image: url(goku2.jpg);
+  }
+
+  #section-1 {
+     background-image: url(gaming2.jpg);
+     text-align: left;
+     padding: 100px;
+     color: #f8f2f2;
+     margin-bottom: 1px;
+  }
+  
+  #section-1 h1 {
+    margin-bottom: 40px;
+    font-size: 5rem;
+  }
+
+  #section1 p{
+    font-size: 3rem;
+  }
+
+  #section-1 img{
+    margin-left: 450px;
+    margin-top: 20px
+  }
+
+  #section-2 {
+    background-image: url(gaming2.jpg);
+    background-position: center;
+    background-size: cover;
+    margin-bottom: 0px;
+    color: #ffffff;
+    padding: 60px;
+  }
+  
+  #section-2 h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+    font-size: 5rem;
+  }
+
+  .flex-columns {
+    display: flex;
+    padding: 15px;
+  }
+  
+  footer {
+    min-height: 150px;
+    background: #710eaf;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
